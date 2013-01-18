@@ -1,0 +1,233 @@
+<link href="./themes/tm/css/lg.css" rel="stylesheet" type="text/css" />
+<link href="./themes/tm/css/base.css" rel="stylesheet" type="text/css" />
+<div class="lg_guid">
+    <div class="lg_guid_center">
+        <span class="lg_left">
+            <a href="#">首页</a>
+            >
+            <a href="#">品牌女装</a>
+            >
+            <form action="">
+                <input type="text">
+                <input type="submit" value='搜索'></form>
+            <span>共  446720 件相关商品</span>
+        </span>
+        <span class="go_tm">
+            <a href="#">去天猫首页</a>
+        </span>
+    </div>
+</div>
+<div class="ppl">
+    <div class='ppl_cen'>
+        <div class="pc_top">
+            <div class='pc_top1'>
+                <div class='cp_left'>
+                    <span>{$lang.brand}</span>
+                </div>
+                <div class="cp_right">
+                    <ul>
+                 {foreach from=$brands item=brand key=key}
+                     
+                         <li>					
+				<a href="{$brand.url}">{$brand.brand_name}</a>					
+                         </li>
+                     
+                 {/foreach}
+
+                    </ul>
+                </div>
+            </div>
+            
+            
+             {foreach from=$cate item=cat}
+                 <div class='pc_boy'>
+                <div class='pc_boy1'>
+                    <span class='pc_boy1_tu'></span>
+                    <span class='pc_boy1_font'>
+                        {$cat.name}
+                    </span>
+                </div>
+                <div class='pc_boy_con'>
+                    <ul>
+                        {foreach from=$cat.cat_id item=type}                       
+                        <li>
+                            <a href="{$type.url}">
+                               {$type.name}                            
+                                <span>(5432)</span>
+                            </a>
+                        </li>
+                       {/foreach}                       
+                    </ul>
+                </div>
+            </div>
+            {/foreach}
+            
+     
+
+             {foreach from=$filter_attr_list item=value }
+                      <div class="pc_boy">
+                <div  class="pc_boy1">
+                    <span class='pc_boy1_font'>{$value.filter_attr_name}</span>
+                </div>
+                <div class="pc_boy_con">
+                    <ul>
+                         {foreach from=$value.attr_list  item=val  key=keys}                       
+                              <li>
+                            <a  href="{$val.url}">{$val.attr_value}</a>
+                              </li>                    
+                          {/foreach}
+                   </ul>
+                </div>
+            </div>
+
+            {/foreach}
+
+            <div class='pc_bottom'></div>
+        </div>
+        <div class='ppl_bottom'>
+            <div>更多选项</div>
+        </div>
+        <div class="ppl_mid">
+            <div class="ppl1">
+                <span>发货地</span>
+                <span></span>
+            </div>
+            <div class="ppl2">
+                <span>默认排序</span>
+                <span></span>
+                <span>销售</span>
+                <span></span>
+                <span>价格</span>
+                <span></span>
+                <span>价格</span>
+                <span></span>
+            </div>
+            <div class="ppl3">
+                <span>¥</span>
+                <span>-</span>
+                <span>¥</span>
+            </div>
+            <div class="ppl4">
+                <label>
+                    <input type="checkbox" >
+                    <span>包邮</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span>折扣</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span>细节实拍</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span>旺旺在线</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span>搭配减价</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span>满就减</span>
+                </label>
+                <label>
+                    <input type="checkbox" >
+                    <span>货到付款</span>
+                </label>
+            </div>
+            <div class="ppl5">
+                <span>店铺</span>
+                <span></span>
+                <span>大图</span>
+                <span></span>
+                <span>列表</span>
+                <span></span>
+            </div>
+            <div class="ppl6">
+                <div>
+                    <span>&lt;</span>
+                </div>
+                <div>
+                    <span>&gt;</span>
+                </div>
+            </div>
+            <div class="ppl7">1/100</div>
+        </div>
+         
+        
+        <div class='lg_goods'>
+        {foreach from=$goods_list key=key item=value}
+                  
+            <div class="lg_good">
+                <a>
+                    <img src="{$value.img_list.1.middle_url}" style="height:220px;width:220px;"  />
+                </a>
+                <div class="lg_small_goods">
+                    <div class="lg_sg">
+                        <p > 
+                            {foreach from=$value.img_list item=cat}
+                            <b ><img  src="{$cat.thumb_url}" style="height:36px;width:30px;margin-top: -1px;"/> <i></i></b> 
+                            {/foreach}
+                           
+                        </div>
+                    </div>
+                    <div style="clear:both"></div>
+                    <p class="price goods_con"> <em title="637.94">{$value.shop_price}</em> <del>{$value.market_price}</del>
+                    </p>
+                    <p class="goods_con">
+                        <a href="{$value.url}" class="good_color">{$value.name}</a>
+                    </p>
+                    <p class="goods_con good_num">
+                        月销量: <em>1.3万</em>
+                        |
+                        <a href='#'>累计评价:1.2万</a>
+                    </p>
+                    <div class="goods_con shop">
+                        <a href="#" class="" >Feizheti/费姿堤</a>
+                        <span class="wang" >
+                            <a href="" >
+                                <span></span>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            
+        {/foreach}
+
+            </div>
+           <div style="clear:both"></div>
+           <div class="page_good">
+               page
+           </div>
+           <div class="good_hot">
+               <h3>商家热卖: </h3>
+               {foreach from=$hot_goods item=gd}
+                  <div>
+                   <div>
+                       <a href="{$gd.url}">
+                           <img src="{$gd.img_list.0.middle_url}" alt="" style="height:160px;width:160px;" />
+                       </a>
+                       <p class="good_hot_price">{$gd.shop_price}</p>
+                       <p>
+                           <a href="">
+                               {$gd.name}
+                           </a>
+                       </p>
+                   </div>
+               </div>
+               {/foreach}
+             
+
+           </div>
+           <div class="search_good">
+               <div>
+                   <div></div>
+                   <span>搜索</span>
+               </div>
+           </div>
+        </div>
+
+    </div>
+
