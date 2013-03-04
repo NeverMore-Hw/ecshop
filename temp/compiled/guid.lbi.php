@@ -1,9 +1,11 @@
 <link href="./themes/tm/css/base.css" rel="stylesheet" type="text/css" />
 <link href="./themes/tm/css/top.css" rel="stylesheet" type="text/css" />
 <?php echo $this->smarty_insert_scripts(array('files'=>'./themes/tm/js/jquery.js')); ?>
+  <script type="text/javascript">
+                    var img_url = "./themes/tm/img";
+</script>
 <?php echo $this->smarty_insert_scripts(array('files'=>'./themes/tm/js/index.js')); ?>
-<meta content="text/html;charset=utf-8"  http-equiv="Content-Type">
-
+<meta content="text/html;charset=utf-8"  http-equiv="Content-Type">          
 <div class="gui">
     <div class="gu_main">
 

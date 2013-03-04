@@ -18,14 +18,14 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 	             		<p>高姿专注美白26年</p>
              		</div>
              		<div class="g1_2">
-                                                            <img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['0']['brand_logo']; ?>" alt="" />
+                                                            <img src="./data/brandlogo/<?php echo $this->_var['brand_list']['0']['brand_logo']; ?>" alt="" />
                                                             <p><?php echo $this->_var['brand_list']['0']['brand_name']; ?></p>
 	             		<p>著名卡通童装品牌</p>
              		</div>
              	</div>
              	<div class="cols">
              		<div class="g2_1">
-	             		 <img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="" />
+	             		 <img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="" />
                                                             <p><?php echo $this->_var['brand_list']['1']['brand_name']; ?></p>
 	             		<p>地球人都知道</p>
              		</div>
@@ -45,34 +45,34 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
              	</div>
              	<div class="cols">
              		<div class="g3_1">
-	             		 <img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['3']['brand_logo']; ?>" alt="" />
+	             		 <img src="./data/brandlogo/<?php echo $this->_var['brand_list']['3']['brand_logo']; ?>" alt="" />
                                                             <p><?php echo $this->_var['brand_list30']['brand_name']; ?></p>
 	             		<p></p>
              		</div>
              		<div class="g3_2">
-	             		 <img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="" />
+	             		 <img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="" />
                                                             <p><?php echo $this->_var['brand_list']['4']['brand_name']; ?></p>
 	             		<p>都市时尚优雅男装</p>
              		</div>
              		<div class="g3_3">
-	             		 <img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="" />
+	             		 <img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="" />
                                                             <p><?php echo $this->_var['brand_list']['5']['brand_name']; ?></p>
 	             		<p>进取不止运动永高</p>
              		</div>
              	</div>
              	<div class="cols">
              		<div class="g4_1">
-	             		 <img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['6']['brand_logo']; ?>" alt="" />
+	             		 <img src="./data/brandlogo/<?php echo $this->_var['brand_list']['6']['brand_logo']; ?>" alt="" />
                                                             <p><?php echo $this->_var['brand_list']['6']['brand_name']; ?></p>
 	             		<p>满99元减3元</p>
              		</div>
              		<div class="g4_2">
-	             		 <img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['7']['brand_logo']; ?>" alt="" />
+	             		 <img src="./data/brandlogo/<?php echo $this->_var['brand_list']['7']['brand_logo']; ?>" alt="" />
                                                             <p><?php echo $this->_var['brand_list']['7']['brand_name']; ?></p>
 	             		<p>商务休闲品牌男装</p>
              		</div>
              		<div class="g4_3">
-	             		 <img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['10']['brand_logo']; ?>" alt="" />
+	             		 <img src="./data/brandlogo/<?php echo $this->_var['brand_list']['10']['brand_logo']; ?>" alt="" />
                                                             <p><?php echo $this->_var['brand_list']['10']['brand_name']; ?></p>
 	             		<p>满199元减10元</p>
              		</div>
@@ -130,36 +130,36 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
              	 	<ul class="ful1">
              	 		<li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
@@ -226,36 +226,36 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
              	 	<ul class="ful1">
              	 		<li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
@@ -330,36 +330,36 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
              	 	<ul class="ful1">
              	 		<li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
@@ -429,36 +429,36 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
              	 	<ul class="ful1">
              	 		<li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
@@ -525,36 +525,36 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
              	 	<ul class="ful1">
              	 		<li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
@@ -620,36 +620,36 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
              	 	<ul class="ful1">
              	 		<li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
@@ -716,36 +716,36 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
              	 	<ul class="ful1">
              	 		<li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['2']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['1']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['4']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['5']['brand_logo']; ?>" alt="">
 		             	 	</a>
 		             	 	<a href="">
-		             	 		<img src="/ec/data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
+		             	 		<img src="./data/brandlogo/<?php echo $this->_var['brand_list']['8']['brand_logo']; ?>" alt="">
 		             	 	</a>
              	 	    </li>
              	 	    <li>

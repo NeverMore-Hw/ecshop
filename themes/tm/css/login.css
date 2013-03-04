@@ -41,7 +41,7 @@
 }
 .login{
     height:334px;
-    width:325px;   
+    width:325px;
     float: left;
     background: url("../img/T1O.q5XdVqXXXXXXXX-70-20.png") no-repeat scroll 60% 0 transparent;
     padding-top: 20px;
@@ -61,7 +61,7 @@
 .title_login{
     width:330px;
     height:auto;
-    padding-top:20px;    
+    padding-top:20px;
     position: relative;
 }
 .title_login span{
@@ -83,13 +83,13 @@
 }
 .input{
     border: 1px solid #C8C8C8;
-    height: 15px;
-    line-height: 15px;
+    height: 25px;
+    line-height: 25px;
     margin-right: 3px;
     padding: 3px;
     vertical-align: middle;
     width: 180px;
-    margin-left:-20px;
+    margin-left:10px;
 }
 .filed{
     text-align: right;
@@ -154,5 +154,5 @@
     margin-top: 5px;
 }
 .hr{
-    color:#eee;      
+    color:#eee;
 }

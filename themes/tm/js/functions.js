@@ -1,6 +1,6 @@
 
 function getClass (classname,obj) {
-	    var obj=obj||document;
+	                    var obj=obj||document;
 		var arr=[];
 		 if(obj.getElementsByClassName){
 		   return obj.getElementsByClassName(classname);
